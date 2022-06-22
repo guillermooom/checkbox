@@ -11,7 +11,7 @@ body{
     cursor: pointer;
 }
 .prue span{
-    background-color: #AAAAAA;
+    background-color: #ffffff;
     margin-top: 7px;
     width: 40px;
     height: 5px;
@@ -20,9 +20,15 @@ body{
 #men{
     display: none;
  }
-p{
-    color: rgb(234, 0, 255);
+.menu{
+    margin-left: -35px;
+    line-height: 25px;
+   display: none;
+   width: 100px;
 }
-#men:checked + p{
-   color: rgb(43, 169, 93);
+.menu li {
+    display: block;
+}
+#men:checked + .menu{
+    display: block;
 }
