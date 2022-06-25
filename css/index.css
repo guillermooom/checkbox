@@ -1,10 +1,18 @@
 body{
+    margin: 0 auto;
     background-color: #5c5c5c;
+    color:#ffffff;
+    font-family: Calibri;
+    font-size: 20px;
+}
+.lie{
+    position: sticky;
+    padding: 15px;
 }
 .prue{
     border-radius: 5px;
     padding:10px;
-    background-color: #0e3c98;
+    background-color: #469ee5;
     width: 40px;
     height: 40px;
     position: relative;
@@ -21,14 +29,41 @@ body{
     display: none;
  }
 .menu{
-    margin-left: -35px;
-    line-height: 25px;
-   display: none;
-   width: 100px;
+    background-color: rgb(213, 150, 14);
+    margin-left: -55%;
+   display: block;
+   margin-top: -100px;
+   height: 450px;
+   width: 50%;
+   transition: 0.5s;
+}
+ul{
+    padding-top: 100px;
 }
 .menu li {
     display: block;
+    transition:0.5s;
+    margin-top: 35px;
+}
+.menu li:hover{
+    transition:0.5s;
+    margin-left: 15px;
+}
+.menu li:hover::before{
+    content: "→ ";
+    color:black;
 }
 #men:checked + .menu{
-    display: block;
+    margin-left: -35px;
+    transition:0.5s;
+}
+/*LOS ELEMTOS DENTRO DE LA CLASS ENTRAN EN FUNCIONAMIENTO EN LA CHECHBOX
+PERO SOLO ESE ELEMNTO CON SUS SUBELEMNTOS LOS DEMAS NO ENTRAN
+#men:checked + .menu li{
+    color:red;
+}*/
+.cuerp{
+    margin-left: 125px;
+ margin-top: -460px;
+ margin-right: 50px;
 }
