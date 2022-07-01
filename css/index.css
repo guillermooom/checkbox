@@ -6,10 +6,17 @@ body{
     font-size: 20px;
 }
 .lie{
+    height: 65px;
+    background-color: #52cb37;
+    top:0;
     position: sticky;
     padding: 15px;
 }
+.lie h3{
+    text-align: center;
+}
 .prue{
+    margin-top: -75px;
     border-radius: 5px;
     padding:10px;
     background-color: #469ee5;
@@ -64,6 +71,5 @@ PERO SOLO ESE ELEMNTO CON SUS SUBELEMNTOS LOS DEMAS NO ENTRAN
 }*/
 .cuerp{
     margin-left: 125px;
- margin-top: -460px;
  margin-right: 50px;
 }
